@@ -2,13 +2,19 @@ export const darkTheme = {
     bg: '#1C1C27',
     bglight: '#1C1E27',
     primary: '#854CE6',
-    text_primary: '#F2F3F4',
+    text_primary: '#F5F5F5',
     text_secondary: '#b1b2b3',
-    card: '#171721',
-    card_light: '#191924',
+    card: '#e6f2ff',
+    card_light: '#404040',
     button: '#853CE6',
     white: '#FFF',
-    black: '#000'
+    black: '#000',
+    skill_card_text: '#001a33',
+    skill_card_bg: '',
+    experience_bg: '#FAFAFA',
+    experience_text_primary: '#115E59',
+    experience_tile_primary: '#0F766E',
+    experience_tile_secondary: '#14B8A6'
 };
 
 export const lightTheme = {

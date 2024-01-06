@@ -4,9 +4,9 @@ import {darkTheme} from "./utils/Themes";
 import Navbar from "./Components/Navbar/navbar";
 import Hero from "./Components/HeroSection/heroSection";
 import Skills from "./Components/Skills/skills";
-import Education from "./Components/Education/index";
+import Education from "./Components/Education/Education";
 import Project from "./Components/Project/project";
-import Experience from "./Components/Experience/experience";
+import Experience from "./Components/Experience/Experience";
 
 
 const Body = styled.div`
@@ -28,9 +28,9 @@ function App() {
             <Hero/>
             <Wrapper>
                 <Skills/>
+                <Experience/>
                 <Education/>
                 <Project/>
-                <Experience/>
             </Wrapper>
         </Body>
     </ThemeProvider>
