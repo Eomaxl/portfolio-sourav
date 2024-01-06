@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const HeroContainer = styled.div`
-  background: ${({ theme }) => theme.card_light};
+  background: ${({ theme }) => theme.experience_bg};
   display: flex;
   justify-content: center;
   position: relative;
-  padding: 80px 30px 165px 30px;
+  padding: 80px 10px 165px 10px;
   @media (max-width: 960px) {
     padding: 66px 16px;
   }
@@ -112,9 +112,9 @@ export const Img = styled.img`
 
 export const Title = styled.div`
   font-weight: 700;
-  font-size: 50px;
-  color: ${({ theme }) => theme.text_primary};
-  line-height: 68px;
+  font-size: 35px;
+  color: ${({ theme }) => theme.experience_text_primary};
+  line-height: 40px;
   @media (max-width: 960px) {
     text-align: center;
   }
@@ -131,7 +131,8 @@ export const TextLoop = styled.div`
   font-size: 32px;
   display: flex;
   gap: 12px;
-  color: ${({ theme }) => theme.text_primary};
+  //color: ${({ theme }) => theme.text_primary};
+  color: '#115E59',
   line-height: 68px;
   @media (max-width: 960px) {
     text-align: center;
@@ -152,7 +153,7 @@ export const SubTitle = styled.div`
   font-size: 20px;
   line-height: 32px;
   margin-bottom: 42px;
-  color: ${({ theme }) => theme.text_primary + 95};
+  color: ${({ theme }) => theme.black};
 
   @media (max-width: 960px) {
     text-align: center;

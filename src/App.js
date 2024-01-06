@@ -7,17 +7,18 @@ import Skills from "./Components/Skills/skills";
 import Education from "./Components/Education/Education";
 import Project from "./Components/Project/project";
 import Experience from "./Components/Experience/Experience";
+import Footer from "./Components/Footer";
 
 
 const Body = styled.div`
-background-color: ${({theme}) => theme.bg};
-width:100%;
-height: 100%;
-overflow-x: hidden;
+    background-color: ${({theme}) => theme.bg};
+    // width:100%;
+    // height: 100%;
+    overflow-x: hidden;
 `
 const Wrapper = styled.div`
-background-color: '#f0f0f0',
-width: 100%;
+    background-color: '#f0f0f0',
+   // width: 100%;
 `
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
                 <Education/>
                 <Project/>
             </Wrapper>
+            <Footer/>
         </Body>
     </ThemeProvider>
   );
